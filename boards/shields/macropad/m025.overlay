@@ -8,7 +8,7 @@
 
 / {
     chosen {
-        zmk,physical-layout = &default_layout;
+        zmk,kscan = &kscan;
     };
 
     kscan: kscan {
@@ -37,7 +37,7 @@
             ;
 
         row-gpios
-            = <&gpio0 11 GPIO_PULL_UP>
+            = <&gpio0 11 (GPIO_INPUT | GPIO_PULL_UP)>
             // , <&gpio0 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
