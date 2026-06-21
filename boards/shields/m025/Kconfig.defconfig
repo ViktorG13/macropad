@@ -1,6 +1,6 @@
 if SHIELD_M025
 
 config ZMK_KEYBOARD_NAME
-    default "custom"
+    default "macropad"
 
 endif # SHIELD_M025
