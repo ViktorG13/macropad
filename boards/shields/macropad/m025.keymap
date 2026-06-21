@@ -12,7 +12,7 @@
 
         default_layer {
             bindings = <
-                &kp A &kp B &kp C &kp D &kp E &kp F &kp G &kp H &studio_unlock
+                &kp A &kp B &kp C &kp D &studio_unlock
             >;
         };
     };
