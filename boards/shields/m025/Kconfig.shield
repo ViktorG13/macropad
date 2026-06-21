@@ -1,2 +1,0 @@
-config SHIELD_M025
-    def_bool $(shields_list_contains,m025)
