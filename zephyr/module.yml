@@ -1,3 +1,4 @@
+name: zmk-keyboard-m025
 build:
   settings:
     board_root: .
